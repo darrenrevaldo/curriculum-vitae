@@ -2,142 +2,151 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Curriculum Vitae - Stanislaus Darren Revaldo</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="min-h-screen m-0 p-0">
-    <main class="w-full h-screen bg-linear-to-b from-stone-950 to-white flex items-center justify-center mb-30 md:mb-0">
-        <div class="flex flex-col md:flex-row items-center 2xl:gap-40 gap-20">
-            <h1 class="text-white text-6xl font-bold text-center">Stanislaus Darren Revaldo</h1>
-            <img class="w-60 h-auto rounded-xl shadow-xl shadow-stone-500/50 hover:scale-105 transition-transform duration-300" src="img/ganteng.jpg" alt="Foto Stanislaus Darren Revaldo">
+<body class="bg-light">
+    <main class="min-vh-100 bg-gradient d-flex align-items-center justify-content-center text-center mb-5" style="background: linear-gradient(to bottom, #0c0a09, #ffffff);">
+        <div class="container d-flex flex-column flex-md-row align-items-center justify-content-center gap-5">
+            <h1 class="fw-bold display-4">Stanislaus Darren Revaldo</h1>
+            <img src="img/ganteng.jpg" class="img-fluid rounded shadow-lg hover-scale" style="max-width: 250px;" alt="Foto">
         </div>
     </main>
 
-    <section class="m-10 mx-30 text-stone-950 flex flex-col items-center">
-        <h1 class="text-4xl font-bold mb-5">About Me</h1>
-        <p class="text-xl text-center">
-            Seorang mahasiswa Sistem Informasi yang tertarik mengeksplorasi teknologi informasi, pengelolaan data, dan pengembangan aplikasi. Saat ini saya sedang fokus mempelajari HTML dan CSS menggunakan Tailwind.
+    <section class="text-center text-dark my-5 container">
+        <h1 class="fw-bold mb-4">About Me</h1>
+        <p class="fs-5">
+            Seorang mahasiswa Sistem Informasi yang tertarik mengeksplorasi teknologi informasi, pengelolaan data, dan
+            pengembangan aplikasi. Saat ini saya sedang fokus mempelajari HTML dan CSS menggunakan Tailwind.
         </p>
     </section>
 
-    <section class="flex flex-col items-center m-10 mt-30 text-stone-950">
-        <h1 class="text-4xl font-bold mb-10">Education</h1>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 w-full">
-            <div class="flex flex-col items-center bg-stone-100 p-5 rounded-lg shadow-xl hover:scale-105 transition-transform duration-300">
-                <div class="size-20 bg-stone-500 flex justify-center items-center rounded-full mb-5">
-                    <svg class="size-10 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
-                    </svg>
+    <section class="text-center text-dark my-5 container">
+        <h1 class="fw-bold mb-5">Education</h1>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card border-0 shadow-lg h-100 hover-scale">
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <div class="rounded-circle bg-secondary d-flex justify-content-center align-items-center mb-4" style="width:80px; height:80px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="edu-icon">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+                            </svg>
+                        </div>
+                        <h3 class="fw-bold text-secondary">SMA Theresiana 1 Semarang</h3>
+                        <hr class="w-75 border-secondary">
+                        <p>Ilmu Pengetahuan Sosial (IPS)</p>
+                        <p>2021 - 2024</p>
+                    </div>
                 </div>
-                <h3 class="font-bold text-xl text-stone-500">SMA Theresiana 1 Semarang</h3>
-                <div class="h-1 w-3/4 bg-stone-500 my-5"></div>
-                <p>Ilmu Pengetahuan Sosial (IPS)</p>
-                <p>2021 - 2024</p>
             </div>
-            <div class="flex flex-col items-center bg-stone-100 p-5 rounded-lg shadow-xl hover:scale-105 transition-transform duration-300">
-                <div class="size-20 bg-stone-500 flex justify-center items-center rounded-full mb-5">
-                    <svg class="size-10 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25" />
-                    </svg>
+
+            <div class="col-md-6">
+                <div class="card border-0 shadow-lg h-100 hover-scale">
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <div class="rounded-circle bg-secondary d-flex justify-content-center align-items-center mb-4" style="width:80px; height:80px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="edu-icon">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25" />
+                            </svg>
+                        </div>
+                        <h3 class="fw-bold text-secondary">Universitas Dian Nuswantoro</h3>
+                        <hr class="w-75 border-secondary">
+                        <p>Sistem Informasi</p>
+                        <p>2024 - Sekarang</p>
+                    </div>
                 </div>
-                <h3 class="font-bold text-xl text-stone-500">Universitas Dian Nuswantoro</h3>
-                <div class="h-1 w-3/4 bg-stone-500 my-5"></div>
-                <p>Sistem Informasi</p>
-                <p>2024 - Sekarang</p>
             </div>
         </div>
     </section>
 
-    <section class="flex flex-col items-center m-10 mt-30 text-stone-950">
-        <h1 class="text-4xl font-bold mb-10">Skills</h1>
-        <div class="flex flex-wrap justify-center gap-6">
-            <div class="flex justify-center items-center size-40 p-1 bg-stone-100 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300">
-                <img class="h-3/4 flex justify-center items-center  rounded-lg" src="img/HTML_logo.png" alt="">
+    <section class="text-center text-dark my-5 container">
+        <h1 class="fw-bold mb-5">Skills</h1>
+        <div class="d-flex flex-wrap justify-content-center gap-4">
+            <div class="skill-card">
+                <img src="img/HTML_logo.png" class="img-fluid rounded" alt="">
             </div>
-            <div class="flex justify-center items-center size-40 p-1 bg-stone-100 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300">
-                <img class="h-3/4 flex justify-center items-center  rounded-lg" src="img/CSS_logo.png" alt="">
+            <div class="skill-card">
+                <img src="img/CSS_logo.png" class="img-fluid rounded" alt="">
             </div>
-            <div class="flex justify-center items-center size-40 p-1 bg-stone-100 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300">
-                <img class="h-3/4 flex justify-center items-center  rounded-lg" src="img/PHP_logo.png" alt="">
+            <div class="skill-card">
+                <img src="img/PHP_logo.png" class="img-fluid rounded" alt="">
             </div>
-            <div class="flex justify-center items-center size-40 p-1 bg-stone-100 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300">
-                <img class="h-3/4 flex justify-center items-center  rounded-lg" src="img/Laravel_logo.png" alt="">
+            <div class="skill-card">
+                <img src="img/Laravel_logo.png" class="img-fluid rounded" alt="">
             </div>
-            <div class="flex justify-center items-center size-40 p-1 bg-stone-100 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300">
-                <img class="h-3/4 flex justify-center items-center  rounded-lg" src="img/MySQL_logo.png" alt="">
+            <div class="skill-card">
+                <img src="img/MySQL_logo.png" class="img-fluid rounded" alt="">
             </div>
         </div>
     </section>
 
-    <section class="flex flex-col items-center m-10 mt-30 text-stone-950">
-        <div class="grid grid-cols-1 lg:grid-cols-3 w-full gap-4">
-            <div class="bg-daun rounded-lg">
-                <div class="flex flex-col p-5 justify-center gap-5 h-full">
-                    <div class="flex items-center gap-5 bg-stone-100 p-3 px-5 rounded-full shadow-xl hover:scale-105 transition-transform duration-300">
-                        <div class="size-10 bg-stone-500 flex justify-center items-center rounded-full">
-                            <svg class="text-white size-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
-                            </svg>
+    <section class="container text-dark my-5">
+        <div class="row g-4">
+            <div class="col-lg-4">
+                <div class="bg-daun rounded p-4 h-100">
+                    <div class="d-flex flex-column gap-3">
+                        <div class="contact-item">
+                            <div class="icon-circle bg-secondary text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+                                </svg>
+                            </div>
+                            <p class="fs-5 mb-0">darren@gmail.com</p>
                         </div>
-                        <p class="text-xl text-center me-5">darren@gmail.com</p>
+                        <div class="contact-item">
+                            <div class="icon-circle bg-secondary text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                    <path
+                                        d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                                </svg>
+                            </div>
+                            <p class="fs-5 mb-0">08xxxxxxxxxx</p>
+                        </div>
+                        <a href="https://instagram.com/darren.revaldo/" target="_blank" class="contact-item text-decoration-none">
+                            <div class="icon-circle bg-secondary text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                                </svg>
+                            </div>
+                            <p class="fs-5 mb-0 text-dark">darren.revaldo</p>
+                        </a>
                     </div>
-                    <div class="flex items-center gap-5 bg-stone-100 p-3 px-5 rounded-full shadow-xl hover:scale-105 transition-transform duration-300">
-                        <div class="size-10 bg-stone-500 flex justify-center items-center rounded-full">
-                            <svg class="text-white size-5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-                                <path
-                                    d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
-                            </svg>
-                        </div>
-                        <p class="text-xl text-center me-5">08xxxxxxxxxx</p>
-                    </div>
-                    <a href="https://instagram.com/darren.revaldo/" target="_blank" class="flex items-center gap-5 bg-stone-100 p-3 px-5 rounded-full shadow-xl hover:scale-105 transition-transform duration-300">
-                        <div class="size-10 bg-stone-500 flex justify-center items-center rounded-full">
-                            <svg class="text-white size-5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                                <path
-                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
-                            </svg>
-                        </div>
-                        <p class="text-xl text-center me-5">darren.revaldo</p>
-                    </a>
                 </div>
             </div>
-            <div class="col-span-2 mt-5 lg:mt-0">
-                <h1 class="text-4xl font-bold mb-10 text-center">Contact Me</h1>
-                <form class="flex flex-col gap-5 w-full">
-                    <input type="text" placeholder="Nama" class="p-3 rounded-lg border border-stone-300 focus:outline-none focus:ring-2 focus:ring-stone-500">
-                    <input type="email" placeholder="Email" class="p-3 rounded-lg border border-stone-300 focus:outline-none focus:ring-2 focus:ring-stone-500">
-                    <input type="text" placeholder="Subjek" class="p-3 rounded-lg border border-stone-300 focus:outline-none focus:ring-2 focus:ring-stone-500">
-                    <textarea rows="6" placeholder="Pesan" class="p-3 rounded-lg border border-stone-300 focus:outline-none focus:ring-2 focus:ring-stone-500"></textarea>
-                    <button type="submit" class="flex justify-center items-center gap-2 bg-stone-500 text-white p-3 rounded-lg hover:bg-stone-600 transition-colors duration-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
-                            <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z" />
-                        </svg>
-                        Send
+
+            <div class="col-lg-8">
+                <h1 class="fw-bold mb-4 text-center">Contact Me</h1>
+                <form class="d-flex flex-column gap-3">
+                    <input type="text" class="form-control" placeholder="Nama">
+                    <input type="email" class="form-control" placeholder="Email">
+                    <input type="text" class="form-control" placeholder="Subjek">
+                    <textarea class="form-control" rows="5" placeholder="Pesan"></textarea>
+                    <button type="submit" class="btn btn-secondary d-flex align-items-center justify-content-center gap-2">
+                        <i class="bi bi-send"></i> Send
                     </button>
                 </form>
             </div>
         </div>
     </section>
 
-    <footer class="bg-stone-950 text-white py-10 mt-20">
-        <div class="container mx-auto px-5 flex flex-col md:flex-row items-center justify-between gap-5">
-
-            <div class="text-center md:text-left">
-                <h2 class="text-2xl font-bold tracking-wide">Stanislaus Darren Revaldo</h2>
-                <p class="text-stone-400 text-sm mt-2">© 2025 All Rights Reserved</p>
-            </div>
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <h2 class="fw-bold">Stanislaus Darren Revaldo</h2>
+            <p class="text-secondary small mb-0">© 2025 All Rights Reserved</p>
+            <hr class="border-secondary my-3">
+            <p class="text-secondary small">
+                Made with ❤️ using <span class="text-white fw-semibold">Bootstrap</span>
+            </p>
         </div>
-
-        <div class="mt-8 border-t border-stone-700"></div>
-
-        <p class="text-center text-stone-400 text-sm mt-4">
-            Made with ❤️ using <span class="text-stone-300 font-semibold">Tailwind CSS</span>
-        </p>
     </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
